@@ -1,0 +1,100 @@
+body { 
+background: light-blue ;
+}
+
+
+
+h1{  
+text-align:center ;	
+text-decoration: underline;	
+color: #3498db ;	
+text-shadow: 8px 8px 20px ;	
+rgba: (0, 0, 0, 0.3);
+background-color: Gris clair;
+}
+
+
+h2 {
+	text-align:center ;	
+    /* Bordures (Borfures dans l'énoncé) */
+    border: 1px solid black;
+	letter-spacing: 3px;
+    /* Bordures de boîte (Box-shadow) */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0,0.5); 30
+    /* Marges intérieures gauches (Padding-left) */
+    padding-left: 15px;        /* Exemple de valeur */
+}
+
+
+p{  
+background-color:#f0f0f0  ;	
+text-align: justify;	
+line-height: 20px ;	
+border:2px solid DodgerBlue;
+width: 1000px;               /* Largeur demandée */
+height: 250px;              /* Hauteur demandée */
+    
+/* Bordures basses et gauches */
+border-bottom: 2px solid blue; 
+border-left: 2px solid red;
+    
+/* Centrer horizontalement */
+margin-left: auto;
+margin-right: auto;
+display: block;            /* S'assure que le paragraphe se comporte comme un bloc */
+
+Aération extérieure (Margin)
+margin-top: 20px;          /* Exemple de "votre choix" */
+margin-bottom: 20px;
+
+/* Angle bas-gauche arrondi */
+/* border-bottom-left-radius: 40px; */
+
+/* Bordures (Borfures dans l'énoncé) */
+    border: 1px solid black;
+
+    /* Bordures de boîte (Box-shadow) */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+
+    /* Marges intérieures gauches (Padding-left) */
+    padding-left: 50px;        /* Exemple de valeur */
+	padding-right: 50px;
+	padding-top: 15px;
+	padding-bottom: 2px;
+}
+
+.logo {
+    display: block;        /* 1. Permet le centrage */
+    margin: 20px auto;     /* 2. Centre horizontalement */
+    height: 80px;          /* 3. Taille modérée */
+    transition: 0.3s;     /* 4. Rend l'animation fluide */
+	.logo: hover; 
+	transform: scale(1.1);
+	width: 1000px;
+}
+
+
+{
+     /* Effet attirant au survol */
+}
+
+
+div h2 {  
+opacity: 0.7 ;
+}
+
+#h1+p {
+  text-align: center;
+  color: green;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  margin: 10px;
+  background: #ff7b00;
+}
