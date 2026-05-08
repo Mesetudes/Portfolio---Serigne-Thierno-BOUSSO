@@ -1,0 +1,30 @@
+/* Section À propos */
+.apropos {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+.apropos h2 {
+  text-align: center;
+  color: #004aad;
+  margin-bottom: 30px;
+}
+
+.apropos-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.apropos-card h3 {
+  color: #ff7b00;
+  margin-bottom: 10px;
+}
+
+.apropos-card p {
+  line-height: 1.6;
+  color: #333;
+}
