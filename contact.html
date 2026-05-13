@@ -37,19 +37,25 @@
       <p><strong>Freelance.sn :</strong> <a href="#">https://mesetudes.github.io/Portfolio---Serigne-Thierno-BOUSSO/</a></p>
     </div>
 
-    <!-- Formulaire -->
-    <form class="contact-form">
-      <label for="name">Nom :</label>
-      <input type="text" id="name" name="name" placeholder="Votre nom" required>
+    <!-- L'attribut action contient votre lien unique Formspree -->
+<!-- L'attribut method="POST" est obligatoire pour l'envoi de données -->
+<form class="contact-form" action="https://formspree.io/f/https://formspree.io/f/xojrbzll" method="POST">
+  
+  <label for="name">Nom :</label>
+  <input type="text" id="name" name="name" placeholder="Votre nom" required>
 
-      <label for="email">Email :</label>
-      <input type="email" id="email" name="email" placeholder="Votre email" required>
+  <label for="email">Email :</label>
+  <!-- Le champ name="email" permet à Formspree de savoir où répondre -->
+  <input type="email" id="email" name="_replyto" placeholder="Votre email" required>
 
-      <label for="message">Message :</label>
-      <textarea id="message" name="message" rows="5" placeholder="Votre message..." required></textarea>
+  <label for="message">Message :</label>
+  <textarea id="message" name="message" rows="5" placeholder="Votre message..." required></textarea>
 
-      <button type="submit" class="btn blue">Envoyer</button>
-    </form>
+  <!-- Optionnel : Un champ sujet pour mieux organiser vos mails Freelance221 -->
+  <input type="hidden" name="_subject" value="Nouveau contact via Portfolio - Serigne Thierno BOUSSO">
+
+  <button type="submit" class="btn blue">Envoyer</button>
+</form>
   </section>
 
   <!-- Pied de page -->
