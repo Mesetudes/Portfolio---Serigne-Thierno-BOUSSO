@@ -37,23 +37,21 @@
       <p><strong>Freelance.sn :</strong> <a href="#">https://mesetudes.github.io/Portfolio---Serigne-Thierno-BOUSSO/</a></p>
     </div>
 
-    <!-- L'attribut action contient votre lien unique Formspree -->
-<!-- L'attribut method="POST" est obligatoire pour l'envoi de données -->
-<!-- modify this form HTML and place wherever you want your form -->
-<form
-  action="https://formspree.io/f/xojrbzll"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
+<form class="contact-form" action="https://formspree.io/f/xojrbzll" method="POST">
+  <label for="name">Nom :</label>
+  <input type="text" id="name" name="name" placeholder="Votre nom" required>
+
+  <label for="email">Email :</label>
+  <!-- Utilisez name="email" ou name="_replyto" pour pouvoir répondre directement au mail -->
+  <input type="email" id="email" name="email" placeholder="Votre email" required>
+
+  <label for="message">Message :</label>
+  <textarea id="message" name="message" rows="5" placeholder="Votre message..." required></textarea>
+
+  <!-- Pour que l'objet du mail soit clair dans votre boîte Freelance221 -->
+  <input type="hidden" name="_subject" value="Nouveau contact via Portfolio - Serigne Thierno BOUSSO">
+
+  <button type="submit" class="btn blue">Envoyer</button>
 </form>
   </section>
 
